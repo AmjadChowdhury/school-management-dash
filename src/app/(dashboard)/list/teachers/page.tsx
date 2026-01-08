@@ -1,11 +1,12 @@
-import React from 'react';
 
 const TeacherListPage = () => {
-    return (
-        <div>
-            hello teachers ascee
-        </div>
-    );
+  
+
+  return (
+    <div>
+        <h1>teacher astese</h1>
+    </div>
+  );
 };
 
 export default TeacherListPage;
