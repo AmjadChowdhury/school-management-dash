@@ -9,13 +9,16 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
     "moment": "^2.30.1",
     "next": "16.1.1",
     "react": "19.2.3",
     "react-big-calendar": "^1.19.4",
     "react-calendar": "^6.0.0",
     "react-dom": "19.2.3",
-    "recharts": "^3.6.0"
+    "react-hook-form": "^7.70.0",
+    "recharts": "^3.6.0",
+    "zod": "^4.3.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
