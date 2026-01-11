@@ -58,7 +58,7 @@ const TeacherListPage = () => {
   const renderRow = (item: Teacher) => (
     <tr
       key={item.id}
-      className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-lamaPurpleLight"
+      className="border-b border-gray-200 even:bg-[#E0F2FE] text-sm hover:bg-[#E9D5FF]"
     >
       <td className="flex items-center gap-4 p-4">
         <Image
