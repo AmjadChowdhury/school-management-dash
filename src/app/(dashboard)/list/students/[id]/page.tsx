@@ -122,7 +122,7 @@ const SingleStudentPage = () => {
             <Link className="p-3 rounded-md bg-lamaSkyLight" href="/">
               Student&apos;s Lessons
             </Link>
-            <Link className="p-3 rounded-md bg-lamaPurpleLight" href="/">
+            <Link className="p-3 rounded-md bg-[#E9D5FF]" href="/">
               Student&apos;s Teachers
             </Link>
             <Link className="p-3 rounded-md bg-pink-50" href="/">
