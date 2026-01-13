@@ -5,6 +5,7 @@ import Performance from "@/components/Performance";
 import { role } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
+import sirImage from './../../../../../../public/PatwarySir.jpeg'
 
 const SingleTeacherPage = () => {
   return (
@@ -17,7 +18,7 @@ const SingleTeacherPage = () => {
           <div className="bg-lamaSky py-6 px-4 rounded-md flex-1 flex gap-4">
             <div className="w-1/3">
               <Image
-                src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src={sirImage}
                 alt=""
                 width={144}
                 height={144}
@@ -26,7 +27,7 @@ const SingleTeacherPage = () => {
             </div>
             <div className="w-2/3 flex flex-col justify-between gap-4">
               <div className="flex items-center gap-4">
-                <h1 className="text-xl font-semibold">Leonard Snyder</h1>
+                <h1 className="text-xl font-semibold">Md. Fazlul Karim Patwary</h1>
                 {role === "admin" && <FormModal
                   table="teacher"
                   type="update"
@@ -47,7 +48,8 @@ const SingleTeacherPage = () => {
                 />}
               </div>
               <p className="text-sm text-gray-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                M.Sc in IIT – Jahangirnagar University  
+                <br />B.Sc in IIT – Jahangirnagar University
               </p>
               <div className="flex items-center justify-between gap-2 flex-wrap text-xs font-medium">
                 <div className="w-full md:w-1/3 lg:w-full 2xl:w-1/3 flex items-center gap-2">

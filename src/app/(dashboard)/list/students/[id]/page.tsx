@@ -4,6 +4,7 @@ import BigCalendar from "@/components/BigCalendar";
 import Performance from "@/components/Performance";
 import Image from "next/image";
 import Link from "next/link";
+import StdImage from './../../../../../../public/AmjadStd.jpeg'
 
 const SingleStudentPage = () => {
   return (
@@ -16,7 +17,7 @@ const SingleStudentPage = () => {
           <div className="bg-lamaSky py-6 px-4 rounded-md flex-1 flex gap-4">
             <div className="w-1/3">
               <Image
-                src="https://images.pexels.com/photos/5414817/pexels-photo-5414817.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                src={StdImage}
                 alt=""
                 width={144}
                 height={144}
@@ -24,9 +25,10 @@ const SingleStudentPage = () => {
               />
             </div>
             <div className="w-2/3 flex flex-col justify-between gap-4">
-              <h1 className="text-xl font-semibold">Cameron Moran</h1>
+              <h1 className="text-xl font-semibold">Amjadul Alam Chy</h1>
               <p className="text-sm text-gray-500">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                B.Sc in IIT - Jahangirnagar University
+                <br />H.Sc - B.A.F Shaheen College, Chattogram
               </p>
               <div className="flex items-center justify-between gap-2 flex-wrap text-xs font-medium">
                 <div className="w-full md:w-1/3 lg:w-full 2xl:w-1/3 flex items-center gap-2">
